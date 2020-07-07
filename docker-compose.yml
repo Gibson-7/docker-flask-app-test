@@ -1,0 +1,20 @@
+---
+version: '2'
+services:
+    pythonapp:
+        build: .
+        ports: 
+            - "5000:5000"
+            - "8000:8000"
+        volumes: 
+            - /home/gibson7/Documentos/flask-app:/home/appuser/flask-app-container
+        tty: True
+    postgres:
+        image: postgres:11.6
+        container_name: postgres-test
+        ports: 
+            - "5432:5432"
+        environment: 
+            - POSTGRES_PASSWORD=h4ck4d3my
+
+
