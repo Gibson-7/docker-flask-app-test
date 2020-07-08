@@ -17,7 +17,7 @@ _Para poder ejecutar esta app se requiren de estos programas:_
 _Despues de haber instalado los programas necesarios, debera de clonar este repositorio en su entorno local_ 
 
 ```
-https://github.com/Gibson-7/docker-flask-app-test.git
+git clone https://github.com/Gibson-7/docker-flask-app-test.git
 ```
 
 _Se debe de abrir una terminal o interprete de bash en la ruta del repo clonado y ejecutar el siguiente comando:_
